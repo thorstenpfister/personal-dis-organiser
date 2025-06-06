@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+personal-disorganiser
+personal-disorganizer
+
+# IDE files
+.vscode/
+.idea/
+
+# Go build files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
