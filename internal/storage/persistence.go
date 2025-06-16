@@ -211,3 +211,13 @@ func (s *Storage) LogError(err error) {
 	
 	file.WriteString(logEntry)
 }
+
+// PurgeData deletes all application data and config files
+func (s *Storage) PurgeData() error {
+	// Remove the entire config directory and all its contents
+	if err := os.RemoveAll(s.configDir); err != nil {
+		return fmt.Errorf("failed to remove config directory: %w", err)
+	}
+	
+	return nil
+}

@@ -2,6 +2,8 @@
 
 A modern, keyboard-driven CLI task management application built with Go and Bubble Tea.
 
+![](promo/demo.gif)
+
 ## Features
 
 - **Today-focused Interface**: Main view centers around today as your primary workspace
