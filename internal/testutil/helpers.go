@@ -141,3 +141,12 @@ func MockTaskText(id int) string {
 	}
 	return texts[id%len(texts)]
 }
+
+// ReadTestFile reads a test file and returns its content
+func ReadTestFile(filePath string) (string, error) {
+	data, err := os.ReadFile(filePath)
+	if err != nil {
+		return "", err
+	}
+	return string(data), nil
+}

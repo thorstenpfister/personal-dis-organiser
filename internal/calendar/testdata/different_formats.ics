@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Different Formats Test//EN
+BEGIN:VEVENT
+UID:date-only-event@example.com
+DTSTART;VALUE=DATE:20240118
+SUMMARY:All Day Event
+DESCRIPTION:This is an all-day event
+END:VEVENT
+BEGIN:VEVENT
+UID:timezone-event@example.com
+DTSTART;TZID=America/New_York:20240119T150000
+DTEND;TZID=America/New_York:20240119T160000
+SUMMARY:Timezone Event
+DESCRIPTION:Event with timezone information
+END:VEVENT
+BEGIN:VEVENT
+UID:no-end-time@example.com
+DTSTART:20240120T120000Z
+SUMMARY:No End Time Event
+DESCRIPTION:Event without end time
+END:VEVENT
+END:VCALENDAR

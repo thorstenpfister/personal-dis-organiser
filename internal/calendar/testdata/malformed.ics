@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Malformed Calendar//EN
+BEGIN:VEVENT
+UID:malformed-event-1@example.com
+DTSTART:invalid-date-format
+SUMMARY:Malformed Date Event
+DESCRIPTION:Event with invalid date format
+END:VEVENT
+BEGIN:VEVENT
+UID:missing-summary@example.com
+DTSTART:20240121T100000Z
+DESCRIPTION:Event without summary
+END:VEVENT
+BEGIN:VEVENT
+UID:incomplete-event@example.com
+DTSTART:20240122T100000Z
+SUMMARY:Incomplete Event
+// Missing END:VEVENT
+BEGIN:VEVENT
+UID:extra-fields@example.com
+DTSTART:20240123T100000Z
+SUMMARY:Event with Extra Fields
+UNKNOWN_FIELD:This field is not standard
+ANOTHER_FIELD:Another unknown field
+END:VEVENT
+END:VCALENDAR

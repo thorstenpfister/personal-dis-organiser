@@ -1,0 +1,5 @@
+This is not a valid iCal file
+It contains no proper iCal structure
+BEGIN:VCALENDAR
+VERSION:2.0
+// Missing END:VCALENDAR

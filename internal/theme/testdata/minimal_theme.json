@@ -1,0 +1,12 @@
+{
+  "name": "minimal",
+  "background": "#ffffff",
+  "foreground": "#000000",
+  "primary": "#0066cc",
+  "secondary": "#666666",
+  "accent": "#ff6600",
+  "muted": "#cccccc",
+  "success": "#00cc00",
+  "warning": "#ffcc00",
+  "error": "#cc0000"
+}

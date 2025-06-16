@@ -1,0 +1,12 @@
+{
+  "name": "custom",
+  "background": "#1e1e2e",
+  "foreground": "#cdd6f4",
+  "primary": "#89b4fa",
+  "secondary": "#585b70",
+  "accent": "#f38ba8",
+  "muted": "#313244",
+  "success": "#a6e3a1",
+  "warning": "#f9e2af",
+  "error": "#f38ba8"
+}
