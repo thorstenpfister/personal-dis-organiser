@@ -2,6 +2,7 @@ package testutil
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
 	"path/filepath"
 	"testing"
@@ -117,4 +118,26 @@ type mockError struct {
 
 func (e *mockError) Error() string {
 	return e.message
+}
+
+// MockUUID generates a mock UUID for testing
+func MockUUID(id int) string {
+	return fmt.Sprintf("test-uuid-%d", id)
+}
+
+// MockTaskText generates mock task text for testing
+func MockTaskText(id int) string {
+	texts := []string{
+		"Complete project documentation",
+		"Review code changes", 
+		"Meeting with team",
+		"Update project timeline",
+		"Write unit tests",
+		"Fix bug in authentication",
+		"Deploy to staging environment",
+		"Create user manual",
+		"Performance optimization",
+		"Database migration",
+	}
+	return texts[id%len(texts)]
 }

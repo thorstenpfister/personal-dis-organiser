@@ -1,0 +1,14 @@
+[
+  {
+    "text": "Valid quote with proper structure",
+    "author": "Valid Author"
+  },
+  {
+    "text": "Invalid quote missing closing brace",
+    "author": "Missing Brace Author"
+  
+  {
+    "invalid_field": "This should be text field",
+    "author": "Wrong Field Author"
+  }
+]
