@@ -133,6 +133,15 @@ quotes-clean:
 test:
 	go test ./...
 
+# Run tests with coverage
+test-coverage:
+	./scripts/test-coverage.sh
+
+# Run tests with coverage (verbose)
+test-verbose:
+	go test -v -race -coverprofile=coverage.out ./...
+	go tool cover -func=coverage.out
+
 # Format Go code
 fmt:
 	go fmt ./...

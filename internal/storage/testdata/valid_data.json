@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    {
+      "id": "task-1",
+      "text": "Complete project documentation",
+      "done": false,
+      "date": "2024-01-15T00:00:00Z",
+      "is_calendar": false,
+      "start_time": "0001-01-01T00:00:00Z",
+      "priority": 1,
+      "created_at": "2024-01-14T10:00:00Z",
+      "level": 0
+    },
+    {
+      "id": "task-2",
+      "text": "Review code changes",
+      "done": true,
+      "date": "2024-01-14T00:00:00Z",
+      "is_calendar": false,
+      "start_time": "0001-01-01T00:00:00Z",
+      "priority": 0,
+      "created_at": "2024-01-14T09:00:00Z",
+      "level": 0
+    },
+    {
+      "id": "cal-event-1",
+      "text": "Team Meeting",
+      "done": false,
+      "date": "2024-01-15T00:00:00Z",
+      "is_calendar": true,
+      "start_time": "2024-01-15T14:00:00Z",
+      "priority": -1,
+      "created_at": "2024-01-14T08:00:00Z",
+      "level": 0
+    }
+  ],
+  "settings": {
+    "last_quote_index": 5,
+    "tasks_completed_today": 1
+  }
+}

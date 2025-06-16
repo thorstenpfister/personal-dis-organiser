@@ -1,0 +1,15 @@
+{
+  "calendar_urls": [
+    "https://example.com/calendar1.ics",
+    "https://example.com/calendar2.ics"
+  ],
+  "data_file": "data.json",
+  "quote_files": [
+    "quotes/pratchett.json",
+    "quotes/custom.json"
+  ],
+  "refresh_interval": 600,
+  "date_format": "2006-01-02",
+  "time_format": "15:04",
+  "theme": "dracula"
+}
